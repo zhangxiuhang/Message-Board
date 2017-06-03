@@ -1,0 +1,25 @@
+
+
+config.php 配置
+只要把$config['base_url'] 改到你的根目录就可以运行了
+$config['base_url']	= "http://localhost/my_ci/";
+$config['css_url'] = $config['base_url']."system/css/";
+$config['js_url'] = $config['base_url']."system/js/";
+$config['img_url'] = $config['base_url']."system/img/";
+
+database.php 这大家自己看
+$db['default']['hostname'] = "localhost";
+$db['default']['username'] = "root";
+$db['default']['password'] = "root";
+$db['default']['database'] = "my_ci";
+$db['default']['dbdriver'] = "mysql";
+$db['default']['dbprefix'] = "";
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = "";
+$db['default']['char_set'] = "utf8";
+$db['default']['dbcollat'] = "utf8_general_ci";
+
+
+
